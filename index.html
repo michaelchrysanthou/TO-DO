@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <div class="logo">TO DO</div>
+        <!--   <button class="menu-toggle" id="menu-toggle">☰</button>-->
+          <ul class="nav-links" id="nav-links">
+
+          </ul>
+
+        </nav>
+      </header>
+
+      <div id="auth-section" class="auth-bg">
+   
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="sign-in-btn">Sign In</button>
+        <button id="sign-up-btn">Sign Up</button>
+        <p class="reset"><a href="password-reset.html">Forgot Password?</a></p>
+
+        
+
+      </div>
+
+      <div class="bg"></div>
+
+  <!-- Success Popup -->
+  <div id="popup" class="hidden">
+    <p>User signed up successfully!</p>
+    <button id="popup-close-btn">OK</button>
+  </div>
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+  
+</body>
+</html>
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+          <div class="logo">TO DO</div>
+          <ul class="nav-links" id="nav-links">
+          </ul>
+
+          <div id="auth-section">
+            <!--   <input type="email" id="email" placeholder="Email">-->
+             <!--  <input type="password" id="password" placeholder="Password">-->
+              <button id="sign-out-btn">Sign Out</button>
+            <!--   <button id="sign-in-btn">Sign In</button>-->
+             <!--  <button id="sign-up-btn">Sign Up</button>-->
+              <!--  <button class="menu-toggle" id="menu-toggle">☰</button>-->
+            </div>
+        </nav>
+      </header>
+
+
+
+<!-- todo.html -->
+<div id="todo-section">
+   <!-- <h2>Your To-Do List</h2>-->
+    <ul id="task-list"></ul>
+    <input id="new-task" placeholder="Add new task">
+    <button id="add-task-btn">Add Task</button>
+    
+  </div>
+
+  <div class="bg"></div>
+  
+
+
+
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
